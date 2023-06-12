@@ -1,11 +1,16 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 import Header from './Components/Layout/Header';
+import Meals from './Components/Meals/Meals';
 
 
 const App = () => {
  return (
   <>
-<Header></Header>
+<Header/>
+  <main>
+<Meals/>
+  </main>
+
   </>
  )
 };
